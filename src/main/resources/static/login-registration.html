@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Вход и регистрация</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #003366, #336699);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            color: #003366;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="email"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            background-color: #003366;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #336699;
+        }
+
+        #registrationSuccess,
+        #userExists {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #registrationSuccess {
+            background-color: #4CAF50;
+            color: #fff;
+        }
+
+        #userExists {
+            background-color: #FF0000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Вход</h2>
+    <form id="loginForm">
+        <div class="form-group">
+            <label for="login">Логин:</label>
+            <input type="text" id="login" name="login">
+        </div>
+        <div class="form-group">
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Войти">
+        </div>
+    </form>
+</div>
+<div class="container">
+    <h2>Регистрация</h2>
+    <form id="registrationForm">
+        <div class="form-group">
+            <label for="regLogin">Логин:</label>
+            <input type="text" id="regLogin" name="regLogin">
+        </div>
+        <div class="form-group">
+            <label for="regPassword">Пароль:</label>
+            <input type="password" id="regPassword" name="regPassword">
+        </div>
+        <div class="form-group">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div class="form-group">
+            <label for="number">Номер:</label>
+            <input type="text" id="number" name="number">
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Зарегистрироваться">
+        </div>
+    </form>
+</div>
+<div id="registrationSuccess" style="display: none;">
+    <p>Регистрация прошла успешно!</p>
+</div>
+<div id="userExists" style="display: none;">
+    <p>Такой пользователь уже существует.</p>
+</div>
+<script>
+    document.getElementById("registrationForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent form submission
+
+        // Get form values
+        var login = document.getElementById("regLogin").value;
+        var password = document.getElementById("regPassword").value;
+        var name = document.getElementById("name```html
+            <!DOCTYPE html>
+        <html>
+        <head>
+        <title>Вход и регистрация</title>
+        <style>
+            body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #003366, #336699);
+        }
+
+            .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+            h2 {
+            color: #003366;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+            .form-group {
+            margin-bottom: 20px;
+        }
+
+            label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+            input[type="text"],
+            input[type="password"],
+            input[type="email"],
+            input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+            input[type="submit"] {
+            background-color: #003366;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            input[type="submit"]:hover {
+            background-color: #336699;
+        }
+
+            #registrationSuccess,
+            #userExists {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+            #registrationSuccess {
+            background-color: #4CAF50;
+            color: #fff;
+        }
+
+            #userExists {
+            background-color: #FF0000;
+            color: #fff;
+        }
+        </style>
+    </head>
+        <body>
+        <div class="container">
+            <h2>Вход</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="login">Логин:</label>
+                    <input type="text" id="login" name="login">
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Войти">
+                </div>
+            </form>
+        </div>
+        <div class="container">
+            <h2>Регистрация</h2>
+            <form id="registrationForm">
+                <div class="form-group">
+                    <label for="regLogin">Логин:</label>
+                    <input type="text" id="regLogin" name="regLogin">
+                </div>
+                <div class="form-group">
+                    <label for="regPassword">Пароль:</label>
+                    <input type="password" id="regPassword" name="regPassword">
+                </div>
+                <div class="form-group">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="number">Номер:</label>
+                    <input type="text" id="number" name="number">
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Зарегистрироваться">
+                </div>
+            </form>
+        </div>
+        <div id="registrationSuccess" style="display: none;">
+            <p>Регистрация прошла успешно!</p>
+        </div>
+        <div id="userExists" style="display: none;">
+            <p>Такой пользователь уже существует.</p>
+        </div>
+        <script>
+            document.getElementById("registrationForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form submission
+
+            // Get form values
+            var login = document.getElementById("regLogin").value;
+            var password = document.getElementById("regPassword").value;
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var number = document.getElementById("number").value;
+

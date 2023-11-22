@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background: linear-gradient(to bottom, #003366, #336699);
+}
+
+header {
+    background: linear-gradient(to bottom, #000000, #333333);
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #003366;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sort-options {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #003366;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #336699;
+}
+
+#car-list {
+    list-style: none;
+    padding: 0;
+}
+
+#car-list li {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 5px;
+}
+
+#car-list li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+#car-list li strong {
+    font-weight: bold;
+    color: #003366;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    color: #003366;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="checkbox"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    margin-left: 5px;
+}

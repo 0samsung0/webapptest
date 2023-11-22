@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мои машины</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Мои машины</h1>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Функция 1: Сортировка машин</h2>
+        <div class="sort-options">
+            <label for="sort-by-name">Сортировать по названию</label>
+            <input type="checkbox" id="sort-by-name">
+        </div>
+        <button id="sort-button">Сортировать</button>
+    </section>
+
+    <section>
+        <h2>Функция 2: Фильтрация доступных машин</h2>
+        <label for="filter-available">Только доступные машины</label>
+        <input type="checkbox" id="filter-available">
+        <button id="filter-button">Фильтровать</button>
+    </section>
+
+    <section>
+        <h2>Функция 3: Добавление машины</h2>
+        <label for="car-number">Номер машины:</label>
+        <input type="text" id="car-number">
+        <br>
+        <label for="car-brand">Марка:</label>
+        <input type="text" id="car-brand">
+        <br>
+        <label for="car-color">Цвет:</label>
+        <input type="text" id="car-color">
+        <br>
+        <button id="add-car-button">Добавить машину</button>
+    </section>
+
+    <section>
+        <h2>Список машин</h2>
+        <ul id="car-list">
+            <!-- Здесь будет список машин -->
+        </ul>
+    </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

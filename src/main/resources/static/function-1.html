@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Редактирование профиля</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<h1>Редактирование профиля</h1>
+
+<div class="edit-section">
+    <h2>Редактирование имени</h2>
+    <form id="edit-name-form">
+        <label for="new-name">Введите новое имя:</label>
+        <input type="text" id="new-name" name="new-name">
+        <button class="edit-button" onclick="updateName()">Сохранить</button>
+    </form>
+</div>
+
+<div class="edit-section">
+    <h2>Редактирование логина</h2>
+    <form id="edit-login-form">
+        <label for="new-login">Введите новый логин:</label>
+        <input type="text" id="new-login" name="new-login">
+        <button class="edit-button" onclick="updateLogin()">Сохранить</button>
+    </form>
+</div>
+
+<div class="edit-section">
+    <h2>Редактирование телефона</h2>
+    <form id="edit-phone-form">
+        <label for="new-phone">Введите новый номер телефона:</label>
+        <input type="text" id="new-phone" name="new-phone">
+        <button class="edit-button" onclick="updatePhone()">Сохранить</button>
+    </form>
+</div>
+
+<div class="edit-section">
+    <h2>Редактирование обоев</h2>
+    <form id="edit-wallpaper-form">
+        <label for="new-wallpaper">Выберите новые обои:</label>
+        <input type="file" id="new-wallpaper" name="new-wallpaper">
+        <button class="edit-button" onclick="updateWallpaper()">Сохранить</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

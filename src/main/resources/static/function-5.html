@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мои поездки</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Мои поездки</h1>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Функция 1: Сортировка поездок</h2>
+        <div class="sort-options">
+            <label for="sort-alphabetically">Сортировать по алфавиту (название поездки)</label>
+            <input type="checkbox" id="sort-alphabetically">
+            <br>
+            <label for="sort-by-date">Сортировать по дате отъезда</label>
+            <input type="checkbox" id="sort-by-date">
+        </div>
+        <button id="sort-button">Сортировать</button>
+    </section>
+
+    <section>
+        <h2>Функция 2: Список пользователей</h2>
+        <ul id="user-list">
+            <!-- Здесь будет список пользователей -->
+        </ul>
+        <button id="get-users-button">Получить список пользователей</button>
+    </section>
+
+    <section>
+        <h2>Функция 3: Фильтрация поездок по дате отъезда</h2>
+        <label for="filter-date">Выберите дату:</label>
+        <input type="date" id="filter-date">
+        <button id="filter-button">Фильтровать</button>
+    </section>
+
+    <section>
+        <h2>Функция 4: Список задач</h2>
+        <ul id="task-list">
+            <!-- Здесь будет список задач -->
+        </ul>
+        <button id="get-tasks-button">Получить список задач</button>
+    </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
